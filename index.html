@@ -13,6 +13,16 @@
 <body>
     <main>
         cartao.innerHTML = `
+        <div class="cartao__conteudo">
+        <h3>${categoria}</h3>
+        <div class="cartao__conteudo__pergunta">
+                <p>${pergunta}</p>
+        </div>
+        <div class="cartao__conteudo__resposta">
+                <p>${resposta}</p>
+        </div>
+        </div>
+`
         <section id="container">
             container.appendChild(cartao)
             <!-- article class="cartao">
@@ -50,6 +60,18 @@
                     </div>
                 </div>
             </article>
+            <article class="cartao">
+                <div class="cartao__conteudo">
+                    <h3>Inglês</h3>
+                    <div class="cartao__conteudo__pergunta">
+                        Como se diz OI em inglês?
+                    </div>
+                    <div class="cartao__conteudo__resposta">
+                        Oi em ingles é HI (RAI)
+                    </div>
+                </div>
+            </article>
+            
         </section>
     </main>
     <footer>
